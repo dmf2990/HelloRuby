@@ -30,5 +30,7 @@ puts "Hello Druby".inspect
 # converts int to string
 p 5.to_s
 
+# converts string to int - here we see user input that creates int obj
 
+age = gets.chomp.to_i
 
