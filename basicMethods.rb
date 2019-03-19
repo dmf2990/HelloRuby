@@ -27,10 +27,38 @@ puts
 # same as p "Hello Druby"
 puts "Hello Druby".inspect  
 
-# converts int to string
-p 5.to_s
-
 # converts string to int - here we see user input that creates int obj
 
 age = gets.chomp.to_i
+
+# int methods ************************************************
+
+# gives next int
+p 3.next #Fixednum only
+
+
+# global method classes ********************************************
+
+# ex - Bignum, Float, Fixnum, TrueClass, FalseClass
+
+p 5.class # will print Fixnum - which has its own set of methods
+
+handsome = true 
+handsome.class #returns TrueClass
+
+
+
+
+
+
+
+
+# convert string to integer ****************************************
+stringName.to_i #if from float cleaves decimal, doesnt round
+
+# convert string to Float ****************************************
+stringName.to_f
+
+# convert integer to String ****************************************
+intName.to_s
 
